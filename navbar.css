@@ -1,0 +1,49 @@
+
+body {
+	margin: 0;
+	font-weight: 800;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+header {
+  background: #777575;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+nav a {
+  color: #fff ;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #D6D6D6 ;
+}
+.li1 {
+  font-size: 20px;
+  color: #fff;
+}
